@@ -1,1 +1,21 @@
-console.log("Hello")
+const accountId = 1445533
+let accountEmail = "abc@gmail.com"
+var accountPassword = "12345"
+let accountState;
+// if we just declare the variable in js, then it will automatically defined as "Undefined"
+
+accountCity = "kangada"
+// we can also declare variable in this way but this is not the correct way to initialize a variable.
+
+
+// accountId = 2 //not allowed
+accountEmail = "sxy@gmail.com"
+accountPassword = "212121121"
+accountCity = "Rewari"
+
+console.log(accountId);
+console.table([accountEmail, accountId, accountPassword, accountCity, accountState])
+/*
+Prefer not to use var, because of issue in block and functional scope
+
+*/
